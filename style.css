@@ -4,13 +4,14 @@
 }
 
 .header_area{
-background: #fffbfb;
-overflow: hidden;
+    background: #fffbfb;
+    overflow: hidden;
+    padding-bottom: 100px;
 }
 .header_top{
-    width: 1700px;
-    margin: 60px auto;
     padding: 0;
+    margin: 60px 0 0 100px;
+    overflow: hidden;
 }
 .logo{
     float: left;width: 20%;
@@ -25,10 +26,6 @@ overflow: hidden;
 }.logo span{
     color:#FBA24F;
 }
-.header_navigration{
-    width: 60%;
-    float: left;
-}
 .header_navigration ul li{
     float: left;
     list-style: none;
@@ -39,10 +36,10 @@ overflow: hidden;
     text-decoration: none;
     color: #575757;
     font-family: Montserrat;
-    font-size: 30px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    padding: 0 50px 0 0;
+    padding: 5px 50px 0 15px;
 }
 .header_navigration ul li a:hover{
     color: #FBA24F;
@@ -87,18 +84,18 @@ overflow: hidden;
     text-decoration: none;
     background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
     border-radius: 100px;
-    padding: 24px 32px 24px 32px;
+    padding: 24px 55px;
     margin-top: 280px;
 }
 .header_area img{
     margin-top: 100px;
+    width: 100%;
 }
 .header_half{
     width:40%;
     float: left;
     padding-left:100px ;
 }
-
 .aboutme_area{
     background: url(images/about_bg.jpg);
     width: 100%;
@@ -106,9 +103,7 @@ overflow: hidden;
     background-size: cover;
     background-position: center center;
     height: 600PX;
-    overflow: hidden;
-   
-    
+    overflow: hidden;    
 }
 .aboutme_area h1{
     color: #707070;
@@ -121,7 +116,6 @@ overflow: hidden;
     text-align: left;
     margin-top: 100px;
 }
-
 .aboutme_area p{
     color: #828282;
     font-family: Montserrat;
@@ -154,8 +148,7 @@ overflow: hidden;
     line-height: 44px;
     letter-spacing: 0em;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 30px; 
+    padding: 90px 0 45px;
 }
 .my_recipies_area p{
     font-family: Montserrat;
@@ -166,60 +159,50 @@ overflow: hidden;
     letter-spacing: 0em;
     text-align: center;
     padding-bottom: 30px;
-    overflow: hidden;
-   
+    overflow: hidden;   
 }
-
 .my_recipie{
     float: left;
     text-align: left;
-    width: 18%;
+    width: 23.66%;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
     border-radius: 30px;
     padding: 25px 25px 0 25px;
-    margin-right: 80px;
-    margin-bottom: 50px;
-}
-.margin_left{
-    margin-left: 290px;;
+    margin: 0 0 50px 100px;
 }
 .my_recipie h2{
-font-family: Montserrat;
-font-size: 28px;
-font-style: normal;
-font-weight: 800;
-line-height: 40px;
-letter-spacing: 0em;
-text-align: left;
-padding: 35px 0 15px 0;
-   
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 35px 0 15px 0;   
 }
 .my_recipie p{
     font-family: Montserrat;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px;
-letter-spacing: 0em;
-text-align: left;
-
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
 }
 .my_recipie img{
     width: 100%;
 }
 .social_media_area{
-    width: 1330px;
-    margin: 50px auto;  
-    display: flex;  
+    display: flex;
     background: #FFFFFF;
-    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 10%);
     border-radius: 20px;
     overflow: hidden;
+    margin: 100px;
 }
 .social{
-    
-    padding:5% 10% ;
+    padding:5% 10% 5% 13% ;
     text-align: left;
 }
 .social h2{
