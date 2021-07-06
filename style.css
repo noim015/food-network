@@ -7,6 +7,47 @@
 background: #fffbfb;
 overflow: hidden;
 }
+.header_top{
+    width: 1700px;
+    margin: 60px auto;
+    padding: 0;
+}
+.logo{
+    float: left;width: 20%;
+}
+.logo a{
+    text-decoration: none;
+    color: #575757;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 800;
+}.logo span{
+    color:#FBA24F;
+}
+.header_navigration{
+    width: 60%;
+    float: left;
+}
+.header_navigration ul li{
+    float: left;
+    list-style: none;
+    padding: 0;
+
+}
+.header_navigration ul li a{
+    text-decoration: none;
+    color: #575757;
+    font-family: Montserrat;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 0 50px 0 0;
+}
+.header_navigration ul li a:hover{
+    color: #FBA24F;
+    text-decoration: underline;
+}
 .header_area h1{
     color: #575757;
     font-family: Montserrat;
@@ -52,7 +93,7 @@ overflow: hidden;
 .header_area img{
     margin-top: 100px;
 }
-.left_half{
+.header_half{
     width:40%;
     float: left;
     padding-left:100px ;
