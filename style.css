@@ -166,6 +166,7 @@ overflow: hidden;
     letter-spacing: 0em;
     text-align: center;
     padding-bottom: 30px;
+    overflow: hidden;
    
 }
 
@@ -178,6 +179,7 @@ overflow: hidden;
     border-radius: 30px;
     padding: 25px 0 0 25px;
     margin-right: 80px;
+    margin-bottom: 50px;
 }
 .margin_left{
     margin-left: 290px;;
@@ -205,4 +207,37 @@ text-align: left;
 }
 .my_recipie img{
     width: 340px;
+}
+.social_media_area{
+    width: 1330px;
+    margin: 50px auto;  
+    display: flex;  
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+}
+.social{
+    
+    padding:5% 10% ;
+    text-align: left;
+}
+.social h2{
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.social p{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+
 }
