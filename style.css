@@ -65,6 +65,7 @@ overflow: hidden;
     background-size: cover;
     background-position: center center;
     height: 600PX;
+    overflow: hidden;
    
     
 }
@@ -98,4 +99,69 @@ overflow: hidden;
     height: 550px;
     padding-top: 50px;
     padding-left: 150px;
+}
+.my_recipies_area{
+     background: #fff;
+     overflow: hidden;
+}
+.my_recipies_area h1{
+    color: #676767;
+    font-family: Montserrat;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px; 
+}
+.my_recipies_area p{
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 30px;
+   
+}
+
+.my_recipie{
+    float: left;
+    text-align: left;
+    width: 19%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgb(0 0 0 / 15%);
+    border-radius: 30px;
+    padding: 25px 0 0 25px;
+    margin-right: 80px;
+}
+.margin_left{
+    margin-left: 290px;;
+}
+.my_recipie h2{
+font-family: Montserrat;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+padding: 35px 0 15px 0;
+   
+}
+.my_recipie p{
+    font-family: Montserrat;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.my_recipie img{
+    width: 340px;
 }
