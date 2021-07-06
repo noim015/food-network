@@ -4,7 +4,8 @@
 }
 
 .header_area{
-background: #E5E5E5;
+background: #fffbfb;
+overflow: hidden;
 }
 .header_area h1{
     color: #575757;
@@ -33,7 +34,7 @@ background: #E5E5E5;
     margin-bottom: 55px;
 
 }
-.header_area a{
+.btn{
     color: #fff;
     font-family: Montserrat;
     font-size: 18px;
@@ -55,4 +56,46 @@ background: #E5E5E5;
     width:40%;
     float: left;
     padding-left:100px ;
+}
+
+.aboutme_area{
+    background: url(images/about_bg.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 600PX;
+   
+    
+}
+.aboutme_area h1{
+    color: #707070;
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 78px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-top: 100px;
+}
+
+.aboutme_area p{
+    color: #828282;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    padding-right: 50px;
+    text-align: justify;
+}
+.aboutme_area img{
+    height: 550px;
+    padding-top: 50px;
+    padding-left: 150px;
 }
